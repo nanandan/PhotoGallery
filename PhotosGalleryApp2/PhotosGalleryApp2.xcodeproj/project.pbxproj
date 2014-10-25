@@ -14,6 +14,7 @@
 		6DAC0BF719FB54E700DEA280 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC0BF519FB54E700DEA280 /* LaunchScreen.xib */; };
 		6DAC0C0319FB54E700DEA280 /* PhotosGalleryApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC0C0219FB54E700DEA280 /* PhotosGalleryApp2Tests.swift */; };
 		6DAC0C0D19FB671F00DEA280 /* ViewPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC0C0C19FB671F00DEA280 /* ViewPhoto.swift */; };
+		6DBA6BC619FBB6CE001D9B80 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBA6BC519FBB6CE001D9B80 /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6DAC0C0119FB54E700DEA280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DAC0C0219FB54E700DEA280 /* PhotosGalleryApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGalleryApp2Tests.swift; sourceTree = "<group>"; };
 		6DAC0C0C19FB671F00DEA280 /* ViewPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPhoto.swift; sourceTree = "<group>"; };
+		6DBA6BC519FBB6CE001D9B80 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBA6BC619FBB6CE001D9B80 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		6DAC0BDE19FB54E700DEA280 = {
 			isa = PBXGroup;
 			children = (
+				6DBA6BC519FBB6CE001D9B80 /* Photos.framework */,
 				6DAC0BE919FB54E700DEA280 /* PhotosGalleryApp2 */,
 				6DAC0BFF19FB54E700DEA280 /* PhotosGalleryApp2Tests */,
 				6DAC0BE819FB54E700DEA280 /* Products */,
